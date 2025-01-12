@@ -95,7 +95,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Glacier, Permafrost"
@@ -118,7 +118,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Poseidon, Sailor, Sailor : Flying Dutchman, ABYSSAL HUNTER"
@@ -141,7 +141,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Wind, Stormal, Stormal : Hurricane"
@@ -164,7 +164,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Pump, Vital, Moonflower, NIGHTMARE SKY, APOSTOLOS : VEIL"
@@ -187,7 +187,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Lunar Nightfall, Cryptfire, SOUL HUNTER, DULLAHAN, HARVESTER, APOSTOLOS : VEIL"
@@ -210,7 +210,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Gilded, Jackpot, ATLAS"
@@ -233,7 +233,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Undead, Undead : Devil, Hades, BLOODLUST"
@@ -256,7 +256,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Starlight, Star Rider, Comet, Galaxy, Starscourge, Sirius, STARSCOURGE : RADIANT, GARGANTUA"
@@ -279,7 +279,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Hazard, Corrosive, Hazard : Rays, Astral, IMPEACHED"
@@ -302,7 +302,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Native Auras : Undefined, Nihility"
@@ -325,7 +325,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "45c48cce2e2d7fbdea1afc51c7c6ad26",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"16891f84e7b : Fault, Glitch, OPPRESSION"
@@ -348,7 +348,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "author": {
                 "name": "Reedzylx - Sol's RNG Biome Announcer",
                 "url": "https://guns.lol/reedzylx",
-                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
                   },
             "footer": {
             "text": f"Thanks for the visit!"
