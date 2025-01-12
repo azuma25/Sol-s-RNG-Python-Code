@@ -84,7 +84,282 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
     webhook_url = webhook_entry.get()
     if webhook_url:
         embed_map = {
-            # Embed map content here...
+        "SNOWY": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***It's kinda cold out here, because it's snowy right now!***\n***Snowy started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 8766195,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Glacier, Permafrost"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328020569001820282/image.png"
+                  }
+             }
+                  ],
+            "attachments": []
+                 },
+        "RAINY": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Prepare your umbrella, because it's pouring rain!***\n***Rainy started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 869229,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Poseidon, Sailor, Sailor : Flying Dutchman, ABYSSAL HUNTER"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328025763533815869/image.png"
+                  }
+             }
+                  ],
+            "attachments": []
+                 },
+        "WINDY": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Stay at home, it's Windy outside!***\n***Windy started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 9619397,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Wind, Stormal, Stormal : Hurricane"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328025570981843029/image.png"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "PUMPKIN MOON": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***The Pumpkin Moon shall rise again!***\n***Pumpkin Moon started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 13400093,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Pump, Vital, Moonflower, NIGHTMARE SKY, APOSTOLOS : VEIL"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328042939401900074/image.png?ex=678543de&is=6783f25e&hm=b90e7572af7c13aee4d319e2d26072899ec16fd0f4822e4956853fc809ff3592&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "GRAVEYARD": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Watch your steps, there are Tombstones everywhere!***\n***Graveyard started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 5592405,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Lunar Nightfall, Cryptfire, SOUL HUNTER, DULLAHAN, HARVESTER, APOSTOLOS : VEIL"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328041915886735412/image.png?ex=678542ea&is=6783f16a&hm=495ea66289a001eb0fdb873cad9277fe02b74a563ca13918d2f81aaeb2eb4751&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "SAND STORM": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Watch your six, Sand Storm is coming!***\n***Sand Storm started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 14730147,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Gilded, Jackpot, ATLAS"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328035490464796672/image.png?ex=67853cee&is=6783eb6e&hm=f770f68c704c4af8046d369f6baa1e1a04e4431a54fd7c56b88669276ef83134&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "HELL": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***It's so hot out here, it feels like Hell!***\n***Hell started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 6556941,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Undead, Undead : Devil, Hades, BLOODLUST"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328035931240009818/image.png?ex=67853d57&is=6783ebd7&hm=80e0d38d4767ba9d1a6eecef7a1fdb385abfab615095ff96eb276135947e3efc&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "STARFALL": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Stars are falling from the sky, make a wish!***\n***Starfall started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 2632855,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Starlight, Star Rider, Comet, Galaxy, Starscourge, Sirius, STARSCOURGE : RADIANT, GARGANTUA"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328036704178667624/image.png?ex=67853e10&is=6783ec90&hm=ea5547a37097239e7bbe45824ba7d12d997821eac2ed9333815614edf10c668c&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "CORRUPTION": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***I can't deal with these amounts of spreading Corruptions!***\n***Corruption started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 9771471,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Hazard, Corrosive, Hazard : Rays, Astral, IMPEACHED"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328036907913056348/image.png?ex=67853e40&is=6783ecc0&hm=57c53a9021fb94dce774fbf553db69fe3ec3ae20d4f01d692d49a3890f196354&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "NULL": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***It's too dark out here, what happened?***\n***Null started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 2105376,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Native Auras : Undefined, Nihility"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328039614908207286/image.png?ex=678540c5&is=6783ef45&hm=7d978431f96a3d7e3dad9cee7cba3f71386ea5f919257fda6ad1bc961daacf76&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "GLITCHED": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "e99a18c428cb38d5f260853678922e03",
+            "description": f"***5d41402abc4b2a76b9719d911017c592***\n***Glitched 983cd24fb0d69 {discord_timestamp}.***",
+            "url": server_link,
+            "color": 16777215,
+            "author": {
+                "name": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"16891f84e7b : Fault, Glitch, OPPRESSION"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328039908803346544/image.png?ex=6785410c&is=6783ef8c&hm=6645cb34e951034fe39c76b59154c06cb8aea9f3c2ecb988959499b82dbd5258&"
+                  }
+             }
+            ],
+            "attachments": []
+        },
+        "NORMAL": {
+            "content": None,
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***Seems like everything is back to Normal.***\n***Previous biome just ended {discord_timestamp}.***",
+            "url": server_link,
+            "color": 16773052,
+            "author": {
+                "name": "Reedzylx - Sol's RNG Biome Announcer",
+                "url": "https://guns.lol/reedzylx",
+                "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328012073426485399/468246535_539730492284156_5457779516946469341_n.jpg"
+                  },
+            "footer": {
+            "text": f"Thanks for the visit!"
+                  },
+            "image": {
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328041335822749746/image.png?ex=67854260&is=6783f0e0&hm=6a9c00872e138b82d46c4dd1582874ef19006b923eed7ecf3e75a5f7f2d7e3a2&"
+                  }
+             }
+            ],
+            "attachments": []
+        }
         }
 
         embed = embed_map.get(biome, {"content": None, "embeds": [{"title": "Biome Detected", "description": message, "color": 0x00FF00}], "attachments": []})
