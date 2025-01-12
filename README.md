@@ -18,3 +18,9 @@ Requirements before launching the .exe
 
 - Install https://fonts.google.com/specimen/Sarpanch (Bold Variant)
 - That's it! Visit the links on the program for my profile and Sol's RNG Official Discord Server!
+
+How to use
+- Start the .exe
+- Fill the private server link field
+- Fill the discord webhook link field
+- That's it! Webhook will automatically fire a message on every biome change, and if you click copy, it'll be ready for you to CTRL+V on the #biome channel!
