@@ -43,11 +43,11 @@ def get_current_biome():
         return None
 
     try:
-        with open(latest_log_file, 'r') as log_file:
+        with open(latest_log_file, 'r', encoding='utf-8', errors='ignore') as log_file:
             logs = log_file.readlines()
             for line in reversed(logs):
-                if '"largeImage":{"hoverText":' in line:
-                    biome = line.split('"largeImage":{"hoverText":')[1].split('"')[1].strip()
+                if '"largeImage":{"hoverText":"' in line:
+                    biome = line.split('"largeImage":{"hoverText":"')[1].split('"')[0].strip()
                     return biome
     except FileNotFoundError:
         return None
