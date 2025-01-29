@@ -381,14 +381,15 @@ def check_biome_periodically():
 
 # Function to save the configuration
 def save_config():
-    config = configparser.ConfigParser()
-    config['Settings'] = {
-        'PrivateServerLink': link_entry.get(),
-        'DiscordWebhookURL': webhook_entry.get()
-    }
-    with open('config.ini', 'w') as configfile:
-        config.write(configfile)
-    output_label.config(text="Configuration saved!")
+  config = configparser.ConfigParser()
+  config['Settings'] = {
+    'PrivateServerLink': link_entry.get(),
+    'DiscordWebhookURL': webhook_entry.get(),
+    'PingRoleID': role_entry.get()
+  }
+  with open('config.ini', 'w') as configfile:
+    config.write(configfile)
+  output_label.config(text="Configuration saved!")
 
 # Function to load the configuration
 def load_config():
