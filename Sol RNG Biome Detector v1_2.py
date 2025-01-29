@@ -398,6 +398,7 @@ def load_config():
         config.read('config.ini')
         link_entry.insert(0, config.get('Settings', 'PrivateServerLink', fallback=''))
         webhook_entry.insert(0, config.get('Settings', 'DiscordWebhookURL', fallback=''))
+        role_entry.insert(0, config.get('Settings', 'PingRoleID', fallback=''))
 
 # GUI Setup
 root = tk.Tk()
