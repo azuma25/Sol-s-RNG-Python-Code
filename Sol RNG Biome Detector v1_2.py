@@ -10,17 +10,16 @@ import configparser
 
 # Dictionary mapping biomes to their specific messages
 biome_messages = {
-    "SNOWY": "-# Native Auras : Glacier, Permafrost",
-    "RAINY": "-# Native Auras : Poseidon, Sailor, Sailor : Flying Dutchman, ABYSSAL HUNTER",
-    "WINDY": "-# Native Auras : Wind, Stormal, Stormal : Hurricane",
-    "PUMPKIN MOON": "-# Limited Auras : Pump, Vital, Moonflower, NIGHTMARE SKY, APOSTOLOS : VEIL",
-    "GRAVEYARD": "-# Limited Auras : Lunar Nightfall, Cryptfire, SOUL HUNTER, DULLAHAN, HARVESTER, APOSTOLOS : VEIL",
-    "SAND STORM": "-# Native Auras : Gilded, Jackpot, ATLAS",
-    "HELL": "-# Native Auras : Undead, Undead : Devil, Hades, BLOODLUST",
-    "STARFALL": "-# Native Auras : Starlight, Star Rider, Comet, Galaxy, Starscourge, Sirius, STARSCOURGE : RADIANT, GARGANTUA",
-    "CORRUPTION": "-# Native Auras : Hazard, Corrosive, Hazard : Rays, Astral, IMPEACHED",
-    "NULL": "-# Native Auras : Undefined, Nihility",
-    "GLITCHED": "-# Native Auras : Fault, Glitch, OPPRESSION",
+    # "SNOWY": "-# Native Auras : Glacier, Permafrost" (currently on hold, defined as normal)
+    "RAINY": "-# Native Auras : Poseidon, Sailor, Sailor : Flying Dutchman, ABYSSAL HUNTER\n-# This biome lasts for 2 minutes",
+    "WINDY": "-# Native Auras : Wind, Stormal, Stormal : Hurricane\n-# This biome lasts for 2 minutes",
+    "SAND STORM": "-# Native Auras : Gilded, Jackpot, ATLAS\n-# This biome lasts for 10 minutes",
+    "HELL": "-# Native Auras : Undead, Undead : Devil, Hades, BLOODLUST\n-# This biome lasts for 11 minutes",
+    "STARFALL": "-# Native Auras : Starlight, Star Rider, Comet, Galaxy, Starscourge, Sirius, STARSCOURGE : RADIANT, GARGANTUA\n-# This biome lasts for 10 minutes",
+    "CORRUPTION": "-# Native Auras : Hazard, Corrosive, Hazard : Rays, Astral, IMPEACHED\n-# This biome lasts for 11 minutes",
+    "NULL": "-# Native Auras : Undefined, Nihility\n-# This biome lasts for 99 seconds",
+    "GLITCHED": "-# Native Auras : Fault, Glitch, OPPRESSION\n-# This biome lasts for 164 seconds",
+    "DREAMSCAPE": "-# Native Auras : ⭐, ⭐⭐, ⭐⭐⭐\n-# This biome lasts for 128 seconds",
 }
 
 last_biome = None
@@ -54,7 +53,7 @@ def get_current_biome():
 
 # Function to generate the message based on the current biome
 def generate_message():
-    global discord_timestamp, discord_timestamp_2
+    global discord_timestamp
     server_link = link_entry.get()
     biome = get_current_biome()
     if not biome:
@@ -65,7 +64,7 @@ def generate_message():
     discord_timestamp = f"<t:{timestamp}:R>"  # Discord-compatible formatted timestamp
     biome_message = biome_messages.get(biome, "No specific message")  # Get the specific message for the biome
     
-    if biome == "NORMAL":
+    if biome == "SNOWY":
         message = (f"> Ended : ***{discord_timestamp}***\n> *Thanks for the visit!*")
     else:
         message = (f"> Biome : ***{biome}***\n> Started : ***{discord_timestamp}***\n<{server_link}>\n{biome_message}")
@@ -98,7 +97,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
               },
             "footer": {
-            "text": f"Native Auras : Glacier, Permafrost"
+            "text": f"Limited Auras : Wonderland, Santa Frost, Winter Fantasy, ABOMITABLE, Express, ATLAS : YULETIDE"
               },
             "image": {
             "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328020569001820282/image.png"
@@ -148,52 +147,6 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
               },
             "image": {
             "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328025570981843029/image.png"
-              }
-             }
-            ],
-            "attachments": []
-        },
-        "PUMPKIN MOON": {
-            "content": None,
-            "embeds": [
-             {
-            "title": "Click this to join the private server!",
-            "description": f"***The Pumpkin Moon shall rise again!***\n***Pumpkin Moon started {discord_timestamp}.***",
-            "url": server_link,
-            "color": 13400093,
-            "author": {
-            "name": "Reedzylx - Sol's RNG Biome Announcer",
-            "url": "https://guns.lol/reedzylx",
-            "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
-              },
-            "footer": {
-            "text": f"Native Auras : Pump, Vital, Moonflower, NIGHTMARE SKY, APOSTOLOS : VEIL"
-              },
-            "image": {
-            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328042939401900074/image.png?ex=678543de&is=6783f25e&hm=b90e7572af7c13aee4d319e2d26072899ec16fd0f4822e4956853fc809ff3592&"
-              }
-             }
-            ],
-            "attachments": []
-        },
-        "GRAVEYARD": {
-            "content": None,
-            "embeds": [
-             {
-            "title": "Click this to join the private server!",
-            "description": f"***Watch your steps, there are Tombstones everywhere!***\n***Graveyard started {discord_timestamp}.***",
-            "url": server_link,
-            "color": 5592405,
-            "author": {
-            "name": "Reedzylx - Sol's RNG Biome Announcer",
-            "url": "https://guns.lol/reedzylx",
-            "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
-              },
-            "footer": {
-            "text": f"Native Auras : Lunar Nightfall, Cryptfire, SOUL HUNTER, DULLAHAN, HARVESTER, APOSTOLOS : VEIL"
-              },
-            "image": {
-            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328041915886735412/image.png?ex=678542ea&is=6783f16a&hm=495ea66289a001eb0fdb873cad9277fe02b74a563ca13918d2f81aaeb2eb4751&"
               }
              }
             ],
@@ -318,12 +271,12 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "content": f"<@&{role_entry.get()}>",
             "embeds": [
              {
-            "title": "e99a18c428cb38d5f260853678922e03",
-            "description": f"***5d41402abc4b2a76b9719d911017c592***\n***Glitched 983cd24fb0d69 {discord_timestamp}.***",
+            "title": "Click this to join the private server!",
+            "description": f"***Unexpected Error Occured...***\n***Glitch started {discord_timestamp}.***",
             "url": server_link,
             "color": 16777215,
             "author": {
-            "name": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+            "name": "Reedzylx - Sol's RNG Biome Announcer",
             "url": "https://guns.lol/reedzylx",
             "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
               },
@@ -332,6 +285,29 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
               },
             "image": {
             "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328039908803346544/image.png?ex=6785410c&is=6783ef8c&hm=6645cb34e951034fe39c76b59154c06cb8aea9f3c2ecb988959499b82dbd5258&"
+              }
+             }
+            ],
+            "attachments": []
+        },
+        "DREAMSCAPE": {
+            "content": f"<@&{role_entry.get()}>",
+            "embeds": [
+             {
+            "title": "Click this to join the private server!",
+            "description": f"***I feel like I've seen this before...***\n***Dreamscape started {discord_timestamp}.***",
+            "url": server_link,
+            "color": 16094395,
+            "author": {
+            "name": "Reedzylx - Sol's RNG Biome Announcer",
+            "url": "https://guns.lol/reedzylx",
+            "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
+              },
+            "footer": {
+            "text": f"16891f84e7b : ⭐, ⭐⭐, ⭐⭐⭐"
+              },
+            "image": {
+            "url": "https://static.wikia.nocookie.net/sol-rng/images/4/48/Dreamspace_Biome.png/revision/latest?cb=20250209043433"
               }
              }
             ],
@@ -384,8 +360,7 @@ def save_config():
   config = configparser.ConfigParser()
   config['Settings'] = {
     'PrivateServerLink': link_entry.get(),
-    'DiscordWebhookURL': webhook_entry.get(),
-    'PingRoleID': role_entry.get()
+    'DiscordWebhookURL': webhook_entry.get()
   }
   with open('config.ini', 'w') as configfile:
     config.write(configfile)
@@ -398,12 +373,11 @@ def load_config():
         config.read('config.ini')
         link_entry.insert(0, config.get('Settings', 'PrivateServerLink', fallback=''))
         webhook_entry.insert(0, config.get('Settings', 'DiscordWebhookURL', fallback=''))
-        role_entry.insert(0, config.get('Settings', 'PingRoleID', fallback=''))
 
 # GUI Setup
 root = tk.Tk()
 root.title("Biome Message Generator")
-root.geometry("440x280")
+root.geometry("440x300")
 root.resizable(False, False)
 
 # Themed styling
@@ -429,7 +403,7 @@ webhook_entry.grid(row=1, column=1, padx=7, pady=5)
 webhook_entry.config(fg="black")
 
 # Role Entry
-tk.Label(root, text="Ping Role for Glitch").grid(row=2, column=0, padx=5, pady=5, sticky="w")
+tk.Label(root, text="Role ID for Glitch &\nDreamscape Ping", anchor="w", justify="left").grid(row=2, column=0, padx=5, pady=5, sticky="w")
 role_entry = tk.Entry(root, width=29)
 role_entry.grid(row=2, column=1, padx=7, pady=5)
 role_entry.config(fg="black")
