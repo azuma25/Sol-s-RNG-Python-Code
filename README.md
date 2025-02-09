@@ -8,22 +8,32 @@ Now, it has discord webhooks! You can put your webhook discord there, and it'll 
 
 Thanks for https://github.com/adriankubinyete for letting me know that logs exist ingame!
 
-V1.2 has been released as an executable files now!
+V1.3 has been released as an executable files now!
 
-- Added save config to save your links (it will create a file called config.ini).
-- Added Discord RoleID field for GLITCHED biome, so webhook will ping the role when GLITCHED starts.
-- Adjusted window size to fit everything inside.
-- Role ID now saved on the config along with PSLink & Webhook Link.
+- Removed Graveyard & Pumpkin Moon
+- Saving Config now exclude saving the role ID because if it saves role ID the .exe false flag as virus
+- Added Dreamscape Biome scan
 
 Requirements before launching the .exe
 
 - Install https://fonts.google.com/specimen/Sarpanch (Bold Variant).
 - That's it! Visit the links on the program for my profile and Sol's RNG Official Discord Server!
 
-How to use
+How to use for Discord Webhook
 - Start the .exe
 - Fill the private server link field with your Roblox PS link.
 - Fill the discord webhook link field from your discord channel settings > integrations > webhook.
 - Fill the discord role ID section by creating the role first, apply it to you, right click it and copy role ID (needs discord dev mode enabled).
 
+How to use for posting Sol RNG Biome Channel
+- Start the .exe
+- Fill the private server link field with your Roblox PS link.
+- Click "copy to clipboard" when a biome spawns, it'll automatically generate a message on your clipboard.
+- Go to Sol RNG Discord Server, and then go to #biomes channel.
+- Simply paste (CTRL + V) and send it.
+
 That's it! Webhook will automatically fire a message on every biome change, and if you click copy, it'll be ready for you to CTRL+V on the #biome channel!
+
+Thanks to :
+- https://github.com/adriankubinyete a.k.a masutty (check his projects as well!)
+- Dreamy on Sol's RNG Discord Server for testing this project!
