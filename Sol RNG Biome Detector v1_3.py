@@ -281,7 +281,7 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
               },
             "footer": {
-            "text": f"16891f84e7b : Fault, Glitch, OPPRESSION"
+            "text": f"Native Auras : Fault, Glitch, OPPRESSION"
               },
             "image": {
             "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328039908803346544/image.png?ex=6785410c&is=6783ef8c&hm=6645cb34e951034fe39c76b59154c06cb8aea9f3c2ecb988959499b82dbd5258&"
@@ -290,12 +290,12 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             ],
             "attachments": []
         },
-        "DREAMSCAPE": {
+        "DREAMSPACE": {
             "content": f"<@&{role_entry.get()}>",
             "embeds": [
              {
             "title": "Click this to join the private server!",
-            "description": f"***I feel like I've seen this before...***\n***Dreamscape started {discord_timestamp}.***",
+            "description": f"***I feel like I've seen this before...***\n***Dreamspace started {discord_timestamp}.***",
             "url": server_link,
             "color": 16094395,
             "author": {
@@ -304,10 +304,10 @@ def send_to_webhook(message, biome, discord_timestamp, server_link):
             "icon_url": "https://cdn.discordapp.com/attachments/1312380078545702962/1328070150850744382/reed_alter.png?ex=67855d36&is=67840bb6&hm=518c6902adbe2233c82d63abeed980a91072bba1a471c5039ce33eaaf4fa1dfe&"
               },
             "footer": {
-            "text": f"16891f84e7b : ⭐, ⭐⭐, ⭐⭐⭐"
+            "text": f"Native Auras : ⭐, ⭐⭐, ⭐⭐⭐"
               },
             "image": {
-            "url": "https://static.wikia.nocookie.net/sol-rng/images/4/48/Dreamspace_Biome.png/revision/latest?cb=20250209043433"
+            "url": "https://cdn.discordapp.com/attachments/1312380078545702962/1340665651504746538/image.png?ex=67b32faf&is=67b1de2f&hm=eb1ed861a856c62924ed7916e48383d257c5c7d040f6ae45c4c848499c5dca8c&"
               }
              }
             ],
