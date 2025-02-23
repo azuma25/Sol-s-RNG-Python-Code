@@ -34,15 +34,16 @@ How to use for posting Sol RNG Biome Channel
 
 That's it! Webhook will automatically fire a message on every biome change, and if you click copy, it'll be ready for you to CTRL+V on the #biome channel!
 
-========================================================================================
+======================================================================================
+
 By the way, I have a server where people are hunting for Glitch and Dreamspace biome.
-It use the same code with different tweaks, you don't need to put Webhook link anymore.
-Because, the webhook code is hard-coded to the program itself & only works in my server.
+It's using the same code with different tweaks, no need to put Webhook link anymore.
+The webhook code is hard-coded to the program itself & only works in my server.
 
 If you are interested, join us!
 Go to https://discord.gg/V9cUvGrAR6 and ping me or @flot_2 in the server.
-========================================================================================
 
 Thanks to :
 - https://github.com/adriankubinyete a.k.a masutty (check his projects as well!)
 - Dreamy on Sol's RNG Discord Server for testing this project!
+- rod (@flot_2) for the idea of building the rare biome server!
